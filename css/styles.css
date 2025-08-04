@@ -25,6 +25,10 @@ h6,
 p {
   margin: 0;
 }
+
+img {
+  display: block;
+}
 /*common*/
 .container {
   max-width: 1158px;
@@ -147,16 +151,17 @@ p {
   color: #fff;
   text-align: center;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  cursor: pointer;
 }
 
 .button:hover,
 .button:focus {
   background-color: #404bbf;
 }
-.button {
-  cursor: pointer;
-}
 
+.section-two-benefits {
+  padding: 120px 0;
+}
 .benefits-item {
   font-weight: 500;
   font-size: 20px;
@@ -175,7 +180,7 @@ p {
 
 .section-team {
   background-color: #f4f4fd;
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 
 .portfolio {
@@ -276,7 +281,7 @@ p {
 }
 
 .team-item-info {
-  padding: 32px 16px;
+  padding: 32px 0px;
 }
 .team-header {
   margin-bottom: 8px;
@@ -302,6 +307,9 @@ p {
   opacity: 0.26;
 }
 
+.section-four {
+  padding: 120px 0 120px 0;
+}
 .portfolio {
   padding-top: 120px;
   margin-bottom: 72px;
@@ -342,7 +350,7 @@ p {
 }
 
 .portfolio-item {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -365,4 +373,7 @@ p {
 .footer-description {
   width: 264px;
   padding-bottom: 100px;
+}
+.page-footer {
+  padding: 100px 0;
 }
